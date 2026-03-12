@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crazy Deals | Best Online Deals</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;margin:0;background:#f2f2f2;}
+header{background:#000;color:white;text-align:center;padding:20px;}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:20px;}
+.card{background:white;padding:15px;border-radius:10px;text-align:center;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.card img{width:100%;border-radius:10px;}
+.btn{display:inline-block;background:#ff6600;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;margin-top:10px;}
+footer{text-align:center;background:#000;color:white;padding:15px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 Crazy Deals</h1>
+<p>Best Amazon Affiliate Products</p>
+</header>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>Acer Nitro Laptop</h3>
+<p>Powerful laptop for gaming & editing</p>
+<a class="btn" href="YOUR_AFFILIATE_LINK">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>Milton Floor Mop</h3>
+<p>Easy cleaning with microfiber mop</p>
+<a class="btn" href="YOUR_AFFILIATE_LINK">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>Chanderi Saree</h3>
+<p>Beautiful floral digital print saree</p>
+<a class="btn" href="YOUR_AFFILIATE_LINK">Buy Now</a>
+</div>
+
+</div>
+
+<footer>
+<p>Affiliate Disclosure: We may earn commission from purchases.</p>
+</footer>
+
+</body>
+</html>
